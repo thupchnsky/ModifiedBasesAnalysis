@@ -34,6 +34,7 @@ python main_allclass_convplus.py --data_path="processed_files/dataset/"
                                  --max_sample=3500 --num_trails=1
 ```
 **Confusion Matrix**
+
 ![image info](./all_class_cm.png)
 
 ### Classification over permutation groups
@@ -46,4 +47,5 @@ python main_usecase_resnet1d.py --data_path="processed_files/dataset/"
                                 --usecase_short="U2" --model_param="[64,4,1,2]"
 ```
 **Confusion Matrix**
+
 ![image info](./usecase_cm.png)
